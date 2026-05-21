@@ -19,7 +19,7 @@ public class RouteDataLoader {
     public void load() throws Exception {
 
         InputStream inputStream = getClass()
-                .getResourceAsStream("/data/routes.txt");
+        .getResourceAsStream("/metlink/routes.txt");
 
         importService.importRoutes(inputStream);
     }

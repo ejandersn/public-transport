@@ -1,12 +1,9 @@
 package com.publictransport.transport.route.repository;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import com.publictransport.transport.route.domain.Route;
 
-public class RouteRepository {
+public interface RouteRepository extends JpaRepository<Route, Long> {
 
-    public void save(Route route) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'save'");
-    }
-    
 }

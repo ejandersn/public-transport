@@ -26,7 +26,7 @@ public class Route {
 
     //no get or set for obj id
 
-    public String getRouteID(){
+    public String getRouteId(){
         return routeId;
     }
 
@@ -58,7 +58,7 @@ public class Route {
         return routeTextColor;
     }
 
-    public String getColor(){
+    public String getRouteColor(){
         return routeColor;
     }
 
