@@ -27,4 +27,4 @@ public class RouteController {
                 .map(RouteMapper::toDTO)
                 .toList();
     }
-}
+}   
